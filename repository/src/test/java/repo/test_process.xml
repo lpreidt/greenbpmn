@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_113fyol" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.5.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.18.0">
+  <bpmn:process id="Process_test" name="Strategieentwicklung" department="Einkauf" processtype="CORE" parentProcess="" isExecutable="true">
+    <bpmn:documentation>Strategieentwicklung bezeichnet den Prozess, in dem das Management eines Unternehmen definiert, welche Ziele das Unternehmen erreichen möchte und wie es diese erreicht – kurz-, mittel- und langfristig.</bpmn:documentation>
+    <bpmn:extensionElements>
+      <camunda:properties>
+        <camunda:property name="CO2" value="450" />
+      </camunda:properties>
+    </bpmn:extensionElements>
+    <bpmn:startEvent id="StartEvent_1;Event_1po129z;" name="">
+      <bpmn:outgoing>Flow_0efbblv</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Activity_0x9rfis">
+      <bpmn:incoming>Flow_0efbblv</bpmn:incoming>
+      <bpmn:outgoing>Flow_1eheo0b</bpmn:outgoing>
+      <bpmn:outgoing>Flow_17oembd</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_0efbblv" sourceRef="StartEvent_1" targetRef="Activity_0x9rfis" />
+    <bpmn:sequenceFlow id="Flow_1eheo0b" sourceRef="Activity_0x9rfis" targetRef="Event_0mjiw37" />
+    <bpmn:sequenceFlow id="Flow_17oembd" sourceRef="Activity_0x9rfis" targetRef="Event_1jktch2" />
+    <bpmn:endEvent id="Event_0mjiw37" name="Process_0020">
+      <bpmn:incoming>Flow_1eheo0b</bpmn:incoming>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_1ed7oyw" messageRef="Message_0ie73kb" />
+    </bpmn:endEvent>
+    <bpmn:endEvent id="Event_1jktch2" name="Process_0030">
+      <bpmn:incoming>Flow_17oembd</bpmn:incoming>
+      <bpmn:messageEventDefinition id="MessageEventDefinition_03vhy7j" messageRef="Message_19p2fni" />
+    </bpmn:endEvent>
+  </bpmn:process>
+  <bpmn:message id="Message_0ie73kb" name="Process_0020" />
+  <bpmn:message id="Message_19p2fni" name="Process_0030" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0001">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="179" y="99" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0x9rfis_di" bpmnElement="Activity_0x9rfis">
+        <dc:Bounds x="270" y="77" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1nzpvyu_di" bpmnElement="Event_0mjiw37">
+        <dc:Bounds x="432" y="99" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="438" y="142" width="25" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1le9ft4_di" bpmnElement="Event_1jktch2">
+        <dc:Bounds x="432" y="212" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="438" y="255" width="25" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0efbblv_di" bpmnElement="Flow_0efbblv">
+        <di:waypoint x="215" y="117" />
+        <di:waypoint x="270" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1eheo0b_di" bpmnElement="Flow_1eheo0b">
+        <di:waypoint x="370" y="117" />
+        <di:waypoint x="432" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_17oembd_di" bpmnElement="Flow_17oembd">
+        <di:waypoint x="370" y="117" />
+        <di:waypoint x="400" y="117" />
+        <di:waypoint x="400" y="230" />
+        <di:waypoint x="432" y="230" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>bpmn-js-example-model-extension</title>
+  
+    <meta charset="utf-8"/>
+  
+    <link rel="stylesheet" href="vendor/bpmn-js/assets/diagram-js.css" />
+    <link rel="stylesheet" href="vendor/bpmn-js/assets/bpmn-font/css/bpmn-embedded.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+<body>
+  
+
+  <div id="container"></div>
+
+  </div>
+  <div id="quality-assurance" class="panel hidden">
+    <form id="form">
+      <p>
+        <b>CO2 Score</b>
+      </p>
+      <br />
+      <input id="CO2-score" type="text" placeholder="100" autocomplete="off">
+      <br />
+      <br />
+      <p id="warning" class="hidden">
+        CO2 Score must be a number
+      </p>
+      <br />
+      <p>
+        <b>Last Checked</b>
+      </p>
+      <br />
+      <p id="last-checked">
+        -
+      </p>
+      <br />
+      <input id="okay" type="submit" value="Okay">
+    </form>
+  </div>
+  
+  <ul class="buttons">
+    <li>
+      download
+    </li>
+    <li>
+      <a id="js-download-diagram" href title="download BPMN diagram">
+        BPMN diagram
+      </a>
+    </li>
+    <li>
+      <a id="js-download-svg" href title="download as SVG image">
+        SVG image
+      </a>
+    </li>
+  </ul>
+  
+  
+  <script src="app.js"></script>
+</html>

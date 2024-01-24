@@ -1,0 +1,58 @@
+stages:
+  - deploy-vm
+  - api-test
+  - unit-test
+
+
+
+
+update-code-on-vm:
+  image: alpine:latest
+  stage: deploy-vm
+  tags:
+    - deployment
+  script:
+    - chmod og= $ID_RSA
+    - apk update && apk add openssh-client
+    - ssh -i $ID_RSA -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP "cd wi-inf-projekt-2-greenbpm/; git fetch; git pull;"
+  environment:
+    name: production
+    url: http://vm11.fkc.hft-stuttgart.de
+  only:
+    - develop
+  
+unit-test:
+  image: maven:3.6.3-jdk-11
+  stage: unit-test
+  tags:
+    - backend
+  script:
+    - echo 'run Unit Tests.....'
+    - cd repository
+    - mvn test
+    - cd
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - repository/target/surefire-reports/TEST-*.xml
+        - repository/target/failsafe-reports/TEST-*.xml
+
+
+
+
+postman_tests:
+  stage: api-test
+  image: 
+    name: postman/newman_alpine33
+    entrypoint: [""]
+  script:
+   - chmod og= $ID_RSA
+   - apk update && apk add openssh-client
+   - ssh -i $ID_RSA -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_IP "cd wi-inf-projekt-2-greenbpm/;"
+   - newman --version
+   - cd  repository
+   #- newman run collection.json
+  only: 
+    - main
+   

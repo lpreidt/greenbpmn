@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8da98d67-d4ed-4cb1-9ac1-dbc5654bc19f" name="Changes" comment="ParentProcess Spalte eingefügt und Dto, Controller, Modellklasse angepasst. &#10;StarKnoten ist null bei &quot;&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/src/main/java/repo/controller/ModellController.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/repo/controller/ModellController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2GSGMkpkcdisVycxmsW4O7EhIql" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bc59a49d36f308b8ac549ac62564661e&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/repository/src/main/java/repo/model" />
+      <recent name="$PROJECT_DIR$/repository" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootBackendApplication (1)">
+    <configuration name="mvnw" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/repository/mvnw" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/repository" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="RestApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rest-service-complete" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="wiprojekt.RestApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="wi-inf-projekt-2-greenbpm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.RestServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rest-service-complete" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.RestServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootBackendApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="repo.SpringbootBackendApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.javaguides.springboot.SpringbootBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="repo.SpringbootBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Shell Script.mvnw" />
+      <item itemvalue="Spring Boot.SpringbootBackendApplication" />
+      <item itemvalue="Spring Boot.RestServiceApplication (1)" />
+      <item itemvalue="Spring Boot.RestApiApplication" />
+      <item itemvalue="Spring Boot.RestServiceApplication (2)" />
+      <item itemvalue="Spring Boot.SpringbootBackendApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringbootBackendApplication (1)" />
+        <item itemvalue="Spring Boot.RestApiApplication" />
+        <item itemvalue="Spring Boot.RestServiceApplication (2)" />
+        <item itemvalue="Spring Boot.RestServiceApplication (1)" />
+        <item itemvalue="Shell Script.mvnw" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8da98d67-d4ed-4cb1-9ac1-dbc5654bc19f" name="Changes" comment="" />
+      <created>1666374525615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666374525615</updated>
+      <workItem from="1666374527640" duration="3263000" />
+      <workItem from="1666378203572" duration="825000" />
+      <workItem from="1667226147928" duration="3777000" />
+      <workItem from="1667474079985" duration="5425000" />
+      <workItem from="1667574466605" duration="4507000" />
+      <workItem from="1667579074438" duration="2190000" />
+      <workItem from="1667750708533" duration="38000" />
+      <workItem from="1667750763639" duration="2653000" />
+      <workItem from="1667827551148" duration="256000" />
+      <workItem from="1667827823891" duration="349000" />
+      <workItem from="1668438662770" duration="3664000" />
+      <workItem from="1668511155360" duration="1211000" />
+      <workItem from="1668532154508" duration="758000" />
+      <workItem from="1668866363376" duration="1145000" />
+      <workItem from="1669040742951" duration="3935000" />
+      <workItem from="1669115881401" duration="4255000" />
+      <workItem from="1669198738492" duration="6095000" />
+      <workItem from="1669221934347" duration="1023000" />
+      <workItem from="1669291884144" duration="7249000" />
+      <workItem from="1671113484930" duration="2429000" />
+      <workItem from="1671456085639" duration="7642000" />
+      <workItem from="1671479036634" duration="4122000" />
+    </task>
+    <task id="LOCAL-00001" summary="7 - Projektstruktur festlegen&#10;Projektstruktur, REST-Controller Template, Spring Application">
+      <created>1666378927163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666378927163</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Hinzufügen der fehlenden dependencys">
+      <created>1667475108278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667475108278</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ticket#46: Entfernen des alten Projektstandes um die überarbeitete Version zu integrieren.">
+      <created>1667753105216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667753105216</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ticket#46: Hinzufügen der Maven-Pakete">
+      <created>1667753162374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667753162374</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ticket#46: Projektrahmen-Dateien hinzufügen">
+      <created>1667753213548</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667753213548</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ticket#46: neue pom.xml Datei mit den überarbeiteten Dependencys">
+      <created>1667753242982</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667753242982</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ticket#46: Datenbankverbindung in application.properties eingepflegt.">
+      <created>1667753266506</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667753266506</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ticket#46: OverviewController mit allen wesentlichen Methoden um auf einem Overview zu operieren">
+      <created>1667753324131</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667753324131</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ticket#57 Overview.java wurde um die neuen Attribute ergänzt. Im folgenden Sprint abklären, wie sich predecessor von parentprocess etc. unterscheidet.">
+      <created>1668532833833</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668532833833</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ticket#58 Dependency für .jar eingefügt. Jar wird im target ordner angelegt.">
+      <created>1669049231306</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669049231306</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ticket#86 Pfadname wurde refactored. Ungenutzte Methoden vorerst auskommentiert.">
+      <created>1669118603466</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669118603466</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ticket#86 Pfadname wurde refactored. Ungenutzte Methoden vorerst auskommentiert.">
+      <created>1669118835205</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669118835205</updated>
+    </task>
+    <task id="LOCAL-00013" summary="GET für Modelle mit spezifischer Prozess-ID">
+      <created>1671461646754</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671461646754</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ParentProcess Spalte eingefügt und Dto, Controller, Modellklasse angepasst. &#10;StarKnoten ist null bei &quot;&quot;">
+      <created>1671482842398</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671482842399</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="7 - Projektstruktur festlegen&#10;Projektstruktur, REST-Controller Template, Spring Application" />
+    <MESSAGE value="Hinzufügen der fehlenden dependencys" />
+    <MESSAGE value="Ticket#46: Entfernen des alten Projektstandes um die überarbeitete Version zu integrieren." />
+    <MESSAGE value="Ticket#46: Hinzufügen der Maven-Pakete" />
+    <MESSAGE value="Ticket#46: Projektrahmen-Dateien hinzufügen" />
+    <MESSAGE value="Ticket#46: neue pom.xml Datei mit den überarbeiteten Dependencys" />
+    <MESSAGE value="Ticket#46: Datenbankverbindung in application.properties eingepflegt." />
+    <MESSAGE value="Ticket#46: Overview-Klasse" />
+    <MESSAGE value="Ticket#46: OverviewController mit allen wesentlichen Methoden um auf einem Overview zu operieren" />
+    <MESSAGE value="Ticket#46: OverviewRepository und die dazugehörige Implementation-Klasse für die Realisierung der Datenbank-Zugriffe" />
+    <MESSAGE value="Ticket#46: Service Klasse für Overview" />
+    <MESSAGE value="Ticket#46: eigene Exception-Klasse für zugeschnittene Fehlermeldungen" />
+    <MESSAGE value="Ticket#46: Klasse zum Ausführen von dem Programm" />
+    <MESSAGE value="Ticket#46: Vorerstellte Test-Klasse. Noch in progress." />
+    <MESSAGE value="Ticket#57 Overview.java wurde um die neuen Attribute ergänzt. Im folgenden Sprint abklären, wie sich predecessor von parentprocess etc. unterscheidet." />
+    <MESSAGE value="Ticket#58 Dependency für .jar eingefügt. Jar wird im target ordner angelegt." />
+    <MESSAGE value="Ticket#86 Pfadname wurde refactored. Ungenutzte Methoden vorerst auskommentiert." />
+    <MESSAGE value="GET für Modelle mit spezifischer Prozess-ID" />
+    <MESSAGE value="ParentProcess Spalte eingefügt und Dto, Controller, Modellklasse angepasst. &#10;StarKnoten ist null bei &quot;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ParentProcess Spalte eingefügt und Dto, Controller, Modellklasse angepasst. &#10;StarKnoten ist null bei &quot;&quot;" />
+  </component>
+</project>

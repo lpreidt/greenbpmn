@@ -1,0 +1,102 @@
+[
+  {
+    "id": "0001",
+    "name": "Strategieentwicklung",
+    "processType": "management",
+    "energySumYear": 207,
+    "endKnoten": ["0020", "0030"],
+    "department": "Test Department",
+    "processDescription": "Strategieentwicklung bezeichnet den Prozess, in dem das Management eines Unternehmen definiert, welche Ziele das Unternehmen erreichen möchte und wie es diese erreicht – kurz-, mittel- und langfristig."
+  },
+  {
+    "id": "0020",
+    "name": "Mitarbeiter schulen",
+    "processType": "core",
+    "energySumYear": 40,
+    "startKnoten": ["0001"],
+    "department": "Test Department",
+
+    "processprocessDescription": "Beschäftigte des Unternehmens weiterbilden, sodass sie ihre fachlichen und sozialen Kompetenzen und Fähigkeiten erlernen, erweitern oder vertiefen können."
+  },
+  {
+    "id": "0021",
+    "name": "Schulungen planen",
+    "processType": "support",
+    "energySumYear": 132,
+    "parent": "0020",
+    "department": "Test Department",
+
+    "processDescription": "Form, Dauer, Zielgruppe und Schulungsinhalte festlegen"
+  },
+  {
+    "id": "0030",
+    "name": "Mitarbeiter einstellen",
+    "processType": "core",
+    "energySumYear": 80,
+    "startKnoten": ["0010"],
+    "endKnoten": ["0050"],
+    "department": "Test Department",
+
+    "processDescription": "Suche, Beurteilung und Einstellung neuerTeammitglieder."
+  },
+  {
+    "id": "0031",
+    "name": "Stellenausschreibung erstellen",
+    "processType": "support",
+    "energySumYear": 173,
+    "parent": "0030",
+    "endKnoten": ["0032"],
+    "department": "Test Department",
+
+    "processDescription": "Anforderungsprofil des Bewerbers erstellen, sowie die Leistungen des Unternehmens für diese Stelle festlegen."
+  },
+  {
+    "id": "0032",
+    "name": "Bewerbungsgespräche führen",
+    "processType": "support",
+    "energySumYear": 19,
+    "parent": "0031",
+    "startKnoten": ["0031"],
+    "department": "Test Department",
+
+    "processDescription": "Bewerberauswahl für die engere Wahl treffen und interviewen."
+  },
+  {
+    "id": "0004",
+    "name": "Kundenservice",
+    "processType": "management",
+    "energySumYear": 278,
+    "department": "Test Department",
+
+    "processDescription": "Unterschiedliche Arten von Kundenbetreuung planen und durchführen."
+  },
+  {
+    "id": "0050",
+    "name": "Budgetierung",
+    "processType": "core",
+    "energySumYear": 173,
+    "startKnoten": ["0030"],
+    "department": "Test Department",
+
+    "processDescription": "Das Budget für die nächsten Geschäftsjahre anhand von Analysen festlegen."
+  },
+  {
+    "id": "0051",
+    "name": "Personalplanung",
+    "processType": "support",
+    "energySumYear": 54,
+    "parent": "0050",
+    "department": "Test Department",
+
+    "processDescription": "Maßnahmen festlegen, die für den idealen personellen Zustand im Unternehmen sorgen."
+  },
+  {
+    "id": "0007",
+    "name": "Marketingstragetie erstellen",
+    "processType": "support",
+    "energySumYear": 27,
+    "department": "Test Department",
+
+    "processDescription": "Mithilfe von Marketinganalysen und eigenen Zielen, werden in diesem Prozess die Marketingstrategien festgelegt."
+  }
+]
